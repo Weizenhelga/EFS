@@ -1,0 +1,24 @@
+<!--OnClick Bild auf Text für Antwortoptionen-->
+
+TextTextText<a href="#" onclick="showModal('images/image_01');">Anklickbarer Text</a>TextTextText
+<!--"Anklickbarer Text" wird unterstrichen gezeigt und mit einem Klick darauf erscheint das Bild-->
+
+<!--OnClick Bild auf Bild für Antwortoptionen-->
+
+<span onclick="showModal('images/xxxxx_groß.png');"><img src="images/xxxxx_klein.png" class="fluid" /></span>
+
+<!--OnClick Bild auf Bild für Fragetexte-->
+
+<div id="myImage"><img class="fluid" src="images/xxxxx_klein.jpg" /></div>
+<script>
+$(document).ready(function() {
+  $("#myImage").on("click", function() {
+   showModal('images/xxxxx_gross.jpg');
+  });
+});
+</script>
+
+<!--Bild responsiv einbinden-->
+
+<img srec="images/xxxxx.jpg" class="fluid">
+
